@@ -99,10 +99,6 @@
 
   <!-- Scripts -->
 
-  {% unless site.theme_mode %}
-    <script src="{{ '/assets/js/dist/theme.min.js' | relative_url }}"></script>
-  {% endunless %}
-
   {% include js-selector.html lang=lang %}
 
   {% if jekyll.environment == 'production' %}
