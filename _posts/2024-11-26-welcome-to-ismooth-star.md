@@ -17,7 +17,7 @@ This blog is hosted using different technologies and services that I am mainly u
 
 Of course, if we talk about the technologies that each one of these is built on, then the list will go on much further.
 
-I am going to discuss a lot of topics related to technology here and there, I built a homelab with my servers and network equipment I have acquired throughout the years. So, the topics that this blog will cover will mostly be:
+I am going to discuss a lot of topics related to technology here and there, I have built a homelab with my servers and network equipment I acquired throughout the years. So, the topics that this blog will cover will mostly be:
 
 - Computers, including but not limited to all types of servers and single board computers.
 - Networks, spefically the software and hardware used for networks.
@@ -64,7 +64,7 @@ Now, lets talk about why **Jekyll** looks attractive to me with my experience in
 - It's blazing fast to load static pages unlike dynamic sites.
 - Full control and customizability over everything.
 
-Additionally, **Jekyll** addresses for me all the drawbacks of **Blogger** that's used for hosting my old blog. Okay, I am not going to talk about the disadvantages of Jekyll for now, although we'll find out very soon.
+Additionally, **Jekyll** addresses for me all the drawbacks of both **Wordpress** and **Blogger** that's used for hosting my old blog. Okay, I am not going to talk about the disadvantages of Jekyll for now, although we'll find out very soon.
 
 ## Conclusion
 I would say it's all about the experience, if you don't have experience with development and code then **Jekyll** may not be the definite choice for your new blog.
