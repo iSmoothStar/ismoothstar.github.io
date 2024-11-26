@@ -7,7 +7,7 @@ tags: [jekyll,blog,blogger,blogspot,wordpress,github]
 
 Hello everybody, in this article I will talk about my new blog which is called **iSmooth Star**, describing the technologies I am using to host it, the history behind it and why I chose **Jekyll** to run it.
 
-## Abouth iSmooth Star
+## About iSmooth Star
 This blog is hosted using different technologies and services that I am mainly utilizing to serve it to the internet.
 
 - [Jekyll](https://jekyllrb.com/) which is the main blogging software.
