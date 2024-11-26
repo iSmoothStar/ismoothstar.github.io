@@ -1,8 +1,8 @@
 ---
 title: Welcome to iSmooth Star
-date: YYYY-MM-DD HH:MM:SS +0300
+date: 2024-11-26 07:50:00 +0300
 categories: [iSmooth Star, Blogging]
-tags: [jekyll,blog,blogger,github]
+tags: [jekyll,blog,blogger,blogspot,wordpress,github]
 ---
 
 Hello everybody, in this article I will talk about my new blog which is called **iSmooth Star**, describing the technologies I am using to host it, the history behind it and why I chose **Jekyll** to run it.
@@ -15,7 +15,7 @@ This blog is hosted using different technologies and services that I am mainly u
 - [Github Pages](https://pages.github.com/) to host the blog.
 - [Namecheap](https://www.namecheap.com/) obviously for the domain name.
 
-Of course, if we talk about the technologies that each one of these is built on the list will go on much further.
+Of course, if we talk about the technologies that each one of these is built on, then the list will go on much further.
 
 I am going to discuss a lot of topics related to technology here and there, I built a homelab with my servers and network equipment I have acquired throughout the years. So, the topics that this blog will cover will mostly be:
 
@@ -32,7 +32,7 @@ So, it's no secret, you can visit my old blog on [ismoothblog.com](https://www.i
 
 Moreover, I was mostly familliar with [Blogger](https://www.blogger.com/) known as **Blogspot** as my platform of choice at that time for **iSmooth Blog** and my other blogs. I have some experience with [Wordpress](https://wordpress.com/) but for some reason I never really migrated to it even though it was superior I sticked to `Blogger` maybe because I didn't want to pay for hosting and maintaining `Wordpress`.
 
-At one point, I had bought a **VPS** plan where I hosted many side projects for development purposes, and I happened to have `Wordpress` installed on some sites and I played with it for a long time then I discovered `Jekyll` and installed on the same instance that's when it all started. After all, it has been years since I tinkered with blogging software and I fianlly decided to launch **iSmooth Star** using `Jekyll` which is currently running on this site.
+At one point, I had bought a **VPS** plan where I hosted many side projects for development purposes, and I happened to have `Wordpress` installed on some sites and I played with it for a long time then I discovered `Jekyll` and installed it on the same instance that's when it all started. After all, it has been years since I tinkered with blogging software and I fianlly decided to launch **iSmooth Star** using `Jekyll` which is currently running on this site.
 
 Furthermore, the reason that I didn't just migrate my old blog to `Jekyll` and started from where I stopped is that as I said, most of the articles there are really outdated so it's not worth the effort and it's much better to make a fresh start.
 
