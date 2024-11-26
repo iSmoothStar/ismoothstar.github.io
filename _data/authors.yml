@@ -6,12 +6,12 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-cotes:
-  name: Cotes Chung
-  twitter: cotes2020
-  url: https://github.com/cotes2020/
+saleem:
+  name: Saleem Almajed
+  twitter: saleemalmajed
+  url: https://ismoothstar.com/
 
-sille_bille:
-  name: Dinesh Prasanth Moluguwan Krishnamoorthy
-  twitter: dinesh_MKD
-  url: https://github.com/SilleBille/
+test:
+  name: Saleem
+  twitter: saleemalmajed
+  url: https://ismoothblog.com/

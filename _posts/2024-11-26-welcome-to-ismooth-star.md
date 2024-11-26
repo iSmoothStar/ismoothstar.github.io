@@ -3,6 +3,7 @@ title: Welcome to iSmooth Star
 date: 2024-11-26 07:50:00 +0300
 categories: [iSmooth Star, Blogging]
 tags: [jekyll,blog,blogger,blogspot,wordpress,github]
+author: saleem
 ---
 
 Hello everybody, in this article I will talk about my new blog which is called **iSmooth Star**, describing the technologies I am using to host it, the history behind it and why I chose **Jekyll** to run it.
