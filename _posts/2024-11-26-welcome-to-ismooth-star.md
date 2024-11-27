@@ -6,10 +6,13 @@ tags: [jekyll,blog,blogger,blogspot,wordpress,github]
 author: saleem
 ---
 
-Hello everybody, in this article I will talk about my new blog which is called **iSmooth Star**, describing the technologies I am using to host it, the history behind it and why I chose **Jekyll** to run it.
+Hello everybody, in this article I will talk about my new blog which is called **iSmooth Star**, describing the technologies I am using to host it, the history behind it and the reason why I chose **Jekyll** to run it.
 
 ## About iSmooth Star
-This blog is hosted using different technologies and services that I am mainly utilizing to serve it to the internet.
+**iSmooth Star** is a blog focused on technology where I share my tutorials, ideas and opinions or development material to the public. I also like to write about blogging by itself as a whole.
+
+### Blogging Platform
+This blog is hosted using different types of software and services that I am mainly utilizing to serve it to the internet.
 
 - [Jekyll](https://jekyllrb.com/) which is the main blogging software.
 - [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy) as the theme of my blog.
@@ -18,11 +21,13 @@ This blog is hosted using different technologies and services that I am mainly u
 
 Of course, if we talk about the technologies that each one of these is built on, then the list will go on much further.
 
-I am going to discuss a lot of topics related to technology here and there, I have built a homelab with my servers and network equipment I acquired throughout the years. So, the topics that this blog will cover will mostly be:
+### Blog Topics
+I am going to discuss a lot of topics related to technology here and there, I have built a homelab with my servers and network equipment I acquired throughout the years. So, the topics that this blog will cover are mostly about:
 
 - Computers, including but not limited to all types of servers and single board computers.
 - Networks, spefically the software and hardware used for networks.
-- Operating Systems, will most likely be `Linux` and maybe `Windows` or others from time to time.
+- Operating systems, it will most likely be Linux and maybe Windows or others from time to time.
+- Blogging in general, and I will definitely be posting in regard to Jekyll and maybe Wordpress, Blogger or any other platform.
 
 That may not only be it, I will definitely find a way to discover more topics in my journey as a blogger but that's what I currently have in mind.
 
