@@ -14,13 +14,13 @@ order: 4
 Hello there, I am the author of this blog and my name is **Saleem Almajed**, I was born in **Bahrain** which is my country of residence, I consider myself as an IT Expert, Hacker, Developer and Blogger. I have always been in love with technology which is the knowledge that I am seeking for. I like everything about computers, networks, servers and operating systems.
 
 ### History and Experience
-Actually, this is not my first attempt at blogging, I started my first blog on 2012 when it was so special to be a blogger. In fact, it's still running ever since to this date but it's the blog that I left behind because of how outdated and limited the platform that I was using to host it.
+Actually, this is not my first attempt at blogging, I started my first blog in 2012 when it was so special to be a blogger. In fact, it's still running ever since to this date but it's the blog that I left behind because of how outdated and limited the platform that I was using to host it.
 
 So, it's no secret, you can visit my old blog on [ismoothblog.com](https://www.ismoothblog.com/) where you can find many outdated articles. Also, I had some other small blogs but it's not worth mentioning right now.
 
 Moreover, I was mostly familliar with [Blogger](https://www.blogger.com/) known as **Blogspot** as my platform of choice at that time for **iSmooth Blog** and my other blogs. I have some experience with [Wordpress](https://wordpress.com/) but for some reason I never really migrated to it even though it was superior I sticked to `Blogger` maybe because I didn't want to pay for hosting and maintaining `Wordpress`.
 
-At one point, I had bought a **VPS** plan where I hosted many side projects for development purposes, and I happened to have `Wordpress` installed on some sites and I played with it for a long time then I discovered **Jekyll** and installed it on the same instance that's when it all started. After all, it has been years since I tinkered with blogging software and I fianlly decided to launch **iSmooth Star** on 2024 using `Jekyll` which is currently running on this site.
+At one point, I had bought a **VPS** plan where I hosted many side projects for development purposes, and I happened to have `Wordpress` installed on some sites and I played with it for a long time then I discovered **Jekyll** and installed it on the same instance that's when it all started. After all, it has been years since I tinkered with blogging software and I fianlly decided to launch **iSmooth Star** in 2024 using `Jekyll` which is currently running on this site.
 
 Furthermore, the reason that I didn't just migrate my old blog to `Jekyll` and started from where I stopped is that as I said, most of the articles there are really outdated so it's not worth the effort and it's much better to make a fresh start.
 
