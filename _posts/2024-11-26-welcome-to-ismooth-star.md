@@ -38,7 +38,7 @@ So, it's no secret, you can visit my old blog on [ismoothblog.com](https://www.i
 
 Moreover, I was mostly familliar with [Blogger](https://www.blogger.com/) known as **Blogspot** as my platform of choice at that time for **iSmooth Blog** and my other blogs. I have some experience with [Wordpress](https://wordpress.com/) but for some reason I never really migrated to it even though it was superior I sticked to `Blogger` maybe because I didn't want to pay for hosting and maintaining `Wordpress`.
 
-At one point, I had bought a **VPS** plan where I hosted many side projects for development purposes, and I happened to have `Wordpress` installed on some sites and I played with it for a long time then I discovered `Jekyll` and installed it on the same instance that's when it all started. After all, it has been years since I tinkered with blogging software and I finally decided to launch **iSmooth Star** in 2024 using `Jekyll` which is currently running on this site.
+At one point, I bought a **VPS** plan where I hosted many side projects for development purposes, and I happened to have `Wordpress` installed on some sites and I played with it for a long time then I discovered `Jekyll` and installed it on the same instance that's when it all started. After all, it has been years since I tinkered with blogging software and I finally decided to launch **iSmooth Star** in 2024 using `Jekyll` which is currently running on this site.
 
 Furthermore, the reason that I didn't just migrate my old blog to `Jekyll` and started from where I stopped is that as I said, most of the articles there are really outdated so it's not worth the effort and it's much better to make a fresh start.
 
