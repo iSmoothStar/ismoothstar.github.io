@@ -70,7 +70,7 @@ Now, lets talk about why **Jekyll** looks attractive to me with my experience in
 - It's blazing fast to load static pages unlike dynamic sites.
 - Full control and customizability over everything.
 
-Additionally, **Jekyll** addresses for me all the drawbacks of both **Wordpress** and **Blogger** that's used for hosting my old blog. Okay, I am not going to talk about the disadvantages of Jekyll for now, although we'll find out very soon.
+Additionally, **Jekyll** addresses for me all the drawbacks of both **Wordpress** and **Blogger** that were used for hosting my old blogs. Okay, I am not going to talk about the disadvantages of Jekyll for now, although we'll find out very soon.
 
 ## Conclusion
 I would say it's all about the experience, if you don't have experience with development and code then **Jekyll** may not be the definite choice for your new blog.
