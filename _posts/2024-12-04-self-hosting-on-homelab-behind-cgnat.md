@@ -23,28 +23,29 @@ After a year, I suddenly found myself assigned with a private IP again which mea
 
 Therefore, I had to find a way and work around CGNAT that's when I came across the various [tunneling solutions](https://github.com/anderspitman/awesome-tunneling) that would put your services online without the need for port forwarding. Definitely, they work great until you deal with their disadvantages, limitations or cost.
 
-I finally settled on Cloudflare as my tunneling service of choice because it's free, advanced and simple to use. Today, I am publicly self-hosting Odoo, Vaultwarden and more behind CGNAT thus I can access them from anywhere especially on the go with my smartphone.
+I finally settled on Cloudflare as my tunneling service of choice because it's free, advanced and simple to use. Today, I am publicly self-hosting Odoo, Vaultwarden and much more behind CGNAT thus I can access them from anywhere especially on the go with my smartphone.
 
 ## Why I Chose Cloudflare Tunnel
-To answer this, I would like to talk about the advantages of Cloudflare tunnel over a reverse proxy hosted on a traditional web server that's port forwarded normally.
+To answer this, I would like to talk about the advantages of Cloudflare Tunnel over a reverse proxy hosted on a traditional web server that's port forwarded normally without CGNAT.
 
 ### Cloudflare Tunnel Advantages
 - First of all, it will bypass CGNAT limitations of your ISP service and it will indirectly expose your services and applications to the internet.
 - Additionally, it will offer DDoS protection and Bot detection technologies for free on your hosted services.
+- You will be assigned with a free SSL certificate for your main domain and all the subdomains created.
 - You are no longer required to port forward your router at all meaning it will reduce the security risks significantly.
-- It's simple with a user interface and requires no maintenance to function.
+- It's so simple to use with a user interface and requires no maintenance to function as you would expect.
 
 ### Reverse Proxy Disadvantages
 - Yes, you will not be able to share your services outside of your network if you are behind CGNAT.
 - It requires a lot of configuration and knowledge to setup a reverse proxy on your own web server.
-- You will need to regularly monitor, update and maintain your reverse proxy setup.
-- If you cannot maintain the web server properly it will introduce a lot of security risks to your network.
-- You are required to port forward your services and directly expose your network devices to the internet which means more security risks.
+- You will need to regularly monitor, update and maintain your reverse proxy setup to function.
+- If you cannot maintain the web server properly it will introduce a lot of security risks to your network and it will stop functioning.
+- You are required to port forward your services and directly expose your network devices to the internet which means more security issues.
 
-Of course, technically there is nothing such as perfect and Cloudflare tunnel has drawbacks but it's something that we can maybe discuss in the comment section. For now, I am not going to write about the limitations in this article because we will find out together and it's currently the best solution you will have for your homelab.
+Of course, technically there is nothing such as perfect and Cloudflare Tunnel has drawbacks but it's something that we can maybe discuss in the comment section. For now, I am not going to write about the limitations in this article because we will find out together and it's currently the best solution you will have for your homelab.
 
 ## How to Use Cloudflare Tunnel
-If you are finally convinced to use Cloudflare tunnel on your homelab lets explain how you can implement and use it.
+Did I convince you to use Cloudflare Tunnel on your homelab. If you are convinced, lets explain how you can implement and use it.
 
 ### Requirements
 - A free Cloudflare account.
@@ -117,7 +118,7 @@ Select "Custom DNS" from the drop down menu, and enter the two nameservers that 
 
 ![Desktop View](/assets/img/posts/namecheap-assign-nameservers.png)
 
-You should now have the nameservers of your domain updated. Next, you will need to create a Cloudflare tunnel where it will be connected to a server on your homelab.
+You should now have the nameservers of your domain updated. Next, you will need to create a Cloudflare Tunnel where it will be connected to a server on your homelab.
 
 ### Create a Cloudflare Tunnel
 Again, go back to your main Cloudflare dashboard on [dash.cloudflare.com](https://dash.cloudflare.com) and from the menu navigate to the "Zero Trust" tab once you are there go to `Networks > Tunnels` and click on "Create a tunnel".
@@ -130,8 +131,8 @@ Give a name to your tunnel, you can use whatever you want then click on "Save tu
 
 ![Desktop View](/assets/img/posts/name-cloudflare-tunnel.png)
 
-### Install Cloudflared on Homelab Server
-You will need to install an application called **Cloudflared** to a server on your homelab, it will be responsible for connecting services to your Cloudflare tunnel. Please select your environment and follow the instructions given to you. 
+### Install Cloudflared on a Homelab Server
+You will need to install an application called **Cloudflared** to a server on your homelab, it will be responsible for connecting services to your Cloudflare Tunnel. Please select your environment and follow the instructions given to you. 
 
 For instance, if you are running `Ubuntu 24.04 LTS` on the server that's providing the services on your homelab then you need to choose "Debian" as your environment.
 
@@ -149,7 +150,7 @@ You can now route traffic by adding a public hostname to your tunnel. For instan
 You can route as many services as you want to any other subdomain at anytime, so don't worry if you have multiple services.
 
 > If you want to use the main domain without a subdomain make sure to leave the "Subdomain" field as empty and select your domain name in the "Domain" field.
-{: .prompt-info }
+{: .prompt-tip }
 
 ### Add Homelab Services
 Now that your tunnel is created and routed to a service, you may want to expand it and add more services that are running on your homelab. To do so, from the Zero Trust menu navigate again to `Networks > Tunnels` then find the tunnel that you have created and click on the colon at the top right to configure it.
@@ -162,7 +163,17 @@ Now, make sure you are on the "Public Hostname" tab then click on "Add a public 
 
 You will be presented again with the same dialog that's asking you to route the tunnel to another service on your homelab. This time, we will assign the subdomain `bitwarden.ismoothstar.com` to the same server known with the IP address of `192.168.1.100` on our local network that's hosting a **Vaultwarden** service running on port `8080`, click on "Save hostname" as shown.
 
+> If the service that you are adding is already served through HTTPS with a self-signed SSL certificate you will need to disable TLS verfication from `Additional application settings > TLS > No TLS Verify` turn that option to on.
+{: .prompt-warning }
+
 ![Desktop View](/assets/img/posts/route-tunnel-to-service.png)
 
+## How to Redirect All Traffic from HTTP to HTTPS
+If you want to offer all the services that you are hosting publicly and redirect them to use only `HTTPS` even when they are originally served using `HTTP` then you need to enable the "Always Use HTTPS" option.
+
+To do that, go to your main Cloudflare dashboard on [dash.cloudflare.com](https://dash.cloudflare.com) and from the menu navigate to `SSL/TLS > Edge Certificates > Always Use HTTPS` and switch that option to on. 
+
+![Desktop View](/assets/img/posts/always-use-https.png)
+
 ## Conclusion
-Altogether, we have learned today that it's not the end of the world if our homelab is running on a network behind CGNAT just because the ISP decides to make you suffer. In fact, using Cloudflare tunnel even has advantages over port forwarding a router as you would normally do when you are NOT behind CGNAT.
+Altogether, we have learned today that it's not the end of the world if our homelab is running on a network behind CGNAT just because the ISP decides to make you suffer. In fact, using Cloudflare Tunnel even has advantages over port forwarding a router as you would normally do when you are NOT behind CGNAT.
