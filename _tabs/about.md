@@ -49,4 +49,4 @@ I am going to discuss a lot of topics related to technology here and there, I ha
 - Operating systems, it will most likely be Linux and maybe Windows or others from time to time.
 - Blogging in general, and I will definitely be posting in regard to Jekyll and maybe Wordpress, Blogger or any other platform.
 
-That may not only be it, I will definitely find a way to discover more topics in my journey as a blogger but that's what I currently have in mind.
+That may not only be it, I will certainly find a way to discover more topics in my journey as a blogger but that's what I currently have in mind.

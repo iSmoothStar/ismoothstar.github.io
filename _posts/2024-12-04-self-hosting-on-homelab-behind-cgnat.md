@@ -23,21 +23,23 @@ After a year, I suddenly found myself assigned with a private IP again which mea
 
 Therefore, I had to find a way and work around CGNAT that's when I came across the various [tunneling solutions](https://github.com/anderspitman/awesome-tunneling) that would put your services online without the need for port forwarding. Definitely, they work great until you deal with their disadvantages, limitations or cost.
 
-I finally settled on Cloudflare as my tunneling service of choice because it's free, advanced and simple to use. Today, I am publicly self-hosting Odoo, Vaultwarden and much more behind CGNAT thus I can access them from anywhere especially on the go with my smartphone.
+I finally settled on Cloudflare as my tunneling service of choice because it's free, advanced and simple to use. Today, I am publicly self-hosting Odoo, Vaultwarden, URL Shortener and much more behind CGNAT thus I can access them from anywhere especially on the go with my smartphone.
 
 ## Why I Chose Cloudflare Tunnel
-To answer this, I would like to talk about the advantages of Cloudflare Tunnel over a reverse proxy hosted on a traditional web server that's port forwarded normally without CGNAT.
+To answer this, I would like to talk about the advantages of Cloudflare Tunnel over a reverse proxy functioning on a traditional web server that's port forwarded normally without CGNAT.
 
 ### Cloudflare Tunnel Advantages
-- First of all, it will bypass CGNAT limitations of your ISP service and it will indirectly expose your services and applications to the internet.
-- Additionally, it will offer DDoS protection and Bot detection technologies for free on your hosted services.
+- It will bypass CGNAT limitations of your ISP service and it will indirectly expose your services and applications to the internet.
+- It can work side by side with your local reverse proxy like nginx for example combining features together to serve services on ports 80/443 and assigning them to your domains.
+- It comes integrated with DDoS protection and Bot detection techniques for your self-hosted services.
 - You will be assigned with a free SSL certificate for your main domain and all the subdomains created.
+- It has a cloud-based chaching system that will substantially reduce the traffic load on your homelab servers.
 - You are no longer required to port forward your router at all meaning it will reduce the security risks significantly.
 - It's so simple to use with a user interface and requires no maintenance to function as you would expect.
 
 ### Reverse Proxy Disadvantages
-- Yes, you will not be able to share your services outside of your network if you are behind CGNAT.
-- It requires a lot of configuration and knowledge to setup a reverse proxy on your own web server.
+- You will not be able to share your services outside of your network if you are behind CGNAT.
+- It requires a lot of configuration and knowledge to set up a reverse proxy on your own web server.
 - You will need to regularly monitor, update and maintain your reverse proxy setup to function.
 - If you cannot maintain the web server properly it will introduce a lot of security risks to your network and it will stop functioning.
 - You are required to port forward your services and directly expose your network devices to the internet which means more security issues.
@@ -105,11 +107,13 @@ It will add your previous DNS records to Cloudflare DNS servers, review them if 
 
 ![Desktop View](/assets/img/posts/review-domain-dns-records.png)
 
-Your domain is now added successfully, you will need to update the nameservers of your domain, as you can see it has assigned two Cloudflare nameservers for you to use.
+Your domain is now added successfully, you will need to update the nameservers of your domain.
+
+### Update Domain Nameservers
+As you can see, it has assigned two Cloudflare nameservers for you to use.
 
 ![Desktop View](/assets/img/posts/update-domain-nameservers.png)
 
-### Update Domain Nameservers
 Depending on your domain registrar you will need to follow certain steps to update your domain nameservers. In my case, I used **Namecheap** to register my domain so I will explain accordingly. Go to [namecheap.com](https://www.namecheap.com/) and sign in, then from the menu navigate to "Domain List" then locate your targeted domain and click on "Manage" where you will find an option called "NAMESERVERS" as shown.
 
 ![Desktop View](/assets/img/posts/namecheap-domain-nameserver.png)

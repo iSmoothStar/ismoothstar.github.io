@@ -1,7 +1,7 @@
 ---
 title: Welcome to iSmooth Star
 date: 2024-11-26 07:50:00 +0300
-categories: [iSmooth Star, Blogging]
+categories: [Blogging]
 tags: [jekyll,blog,blogger,blogspot,wordpress,github]
 author: saleem
 ---
@@ -22,14 +22,14 @@ This blog is hosted using different types of software and services that I am mai
 Of course, if we talk about the technologies that each one of these is built on, then the list will go on much further.
 
 ### Blog Topics
-I am going to discuss a lot of topics related to technology here and there, I have built a homelab with my servers and network equipment I acquired throughout the years. So, the topics that this blog will cover are mostly about:
+I am going to discuss a lot of topics related to technology here and there, I have built a [Homelab](/categories/homelab/) with my servers and network equipment I acquired throughout the years. So, the topics that this blog will cover are mostly about:
 
 - Computers, including but not limited to all types of servers and single board computers.
 - Networks, spefically the software and hardware used for networks.
 - Operating systems, it will most likely be Linux and maybe Windows or others from time to time.
 - Blogging in general, and I will definitely be posting in regard to Jekyll and maybe Wordpress, Blogger or any other platform.
 
-That may not only be it, I will definitely find a way to discover more topics in my journey as a blogger but that's what I currently have in mind.
+That may not only be it, I will certainly find a way to discover more topics in my journey as a blogger but that's what I currently have in mind for now.
 
 ## My Past History and Experience
 Actually, this is not my first attempt at blogging, I started my first blog in 2012 when it was so special to be a blogger. In fact, it's still running ever since to this date but it's the blog that I left behind because of how outdated and limited the platform that I was using to host it.
