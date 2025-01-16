@@ -48,7 +48,7 @@ Press `Enter` to apply the command, now you can find both applications available
 By defult, when downloading files from **Firefox** it will not save your files which is a problem that we can solve by issuing the following command by using "xterm" from the "Applications" menu:
 
 ```bash
-flatpak override –filesystem=host org.mozilla.firefox
+flatpak override --filesystem=host org.mozilla.firefox
 ```
 {: .nolineno }
 
