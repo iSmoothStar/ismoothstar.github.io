@@ -35,7 +35,7 @@ You can install the required packages on Batocera easily, make sure you are conn
 4. Search for "firefox" and then "peazip" from the search bar.
 5. Click on the "Install" green button for both applications.
 
-Once finished, open "xterm" from the "Applications" menu again then type the following command:
+Once finished, open "xterm" from the "Applications" menu then type the following command:
 
 ```bash
 batocera-flatpak-update
@@ -45,7 +45,7 @@ batocera-flatpak-update
 Press `Enter` to apply the command, now you can find both applications available in the "Ports" at the main screen of Batocera.
 
 ### Fix Firefox
-By defult, when downloading files from **Firefox** it will not save your files which is a problem that we can solve by issuing the following command again by using "xterm" from the "Applications" menu:
+By defult, when downloading files from **Firefox** it will not save your files which is a problem that we can solve by issuing the following command by using "xterm" from the "Applications" menu:
 
 ```bash
 flatpak override –filesystem=host org.mozilla.firefox
@@ -68,7 +68,7 @@ Scroll down till you find "Downloads" and "Save files to" this is the path of th
 > Alternatively, you can create your own folder at any location you want and set it to that path by clicking on `Browse` and selecting your own path.
 {: .prompt-info }
 
-### Downloads ROMs
+### Download ROMs
 Simply, navigate to your favorite website for downloading game ROMs like you would normally do on any operating system by using **Firefox** as a browser.
 
 ### Extract ROMs
