@@ -75,4 +75,4 @@ Simply, navigate to your favorite website for downloading game ROMs like you wou
 Open **PeaZip** from the "Ports" section in the main screen then navigate to the downloads folder path that you have just noted. Find your ROM file and select it then click on "Extract" from the options above then click on the `OK` button.
 
 ### Add ROMs
-Open **File Manager** from the main screen by pressing on `F1` from the main screen then navigate to the downloads folder path again but this time you will find the extracted raw file which you can then copy to your relevant "roms" directory in Batocera. 
+Open **File Manager** from the main screen by pressing on `F1` then navigate to the downloads folder path again but this time you will find the extracted raw file which you can then copy to your relevant "roms" directory in Batocera. 
