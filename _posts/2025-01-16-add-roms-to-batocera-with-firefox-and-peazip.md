@@ -45,7 +45,7 @@ batocera-flatpak-update
 Press `Enter` to apply the command, now you can find both applications available in the "Ports" at the main screen of Batocera.
 
 ### Fix Firefox
-By defult, when downloading files from **Firefox** it will not save your files which is a problem that we can solve by issuing the following command by using "xterm" from the "Applications" menu:
+By defult, when downloading files from **Firefox** it will not save your files which is a problem that we can solve by issuing the following command using "xterm" from the "Applications" menu:
 
 ```bash
 flatpak override --filesystem=host org.mozilla.firefox
@@ -57,9 +57,6 @@ You can now download any file you want from Firefox and it will save just fine.
 > You can exit the "xterm" application by typing "exit" as a command and pressing `Enter`.
 {: .prompt-tip }
 
-## The Process
-It's so easy to achieve what we want now, I will summarize it in a few points.
-
 ### Set Path for Downloads
 So, open **Firefox** from the "Ports" section in the main screen then click on the row of bars on the upper right corner of the browser to bring up the menu. Now, you will see the options, from there select "Settings".
 
@@ -67,6 +64,9 @@ Scroll down till you find "Downloads" and "Save files to" this is the path of th
 
 > Alternatively, you can create your own folder at any location you want and set it to that path by clicking on `Browse` and selecting your own path.
 {: .prompt-info }
+
+## The Process
+It's so easy to achieve what we want now, I will summarize it in a few points.
 
 ### Download ROMs
 Simply, navigate to your favorite website for downloading game ROMs like you would normally do on any operating system by using **Firefox** as a browser.
